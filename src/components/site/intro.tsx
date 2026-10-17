@@ -1,4 +1,4 @@
-import { FileText } from 'lucide-react'
+// import { FileText } from 'lucide-react'
 
 import { GithubIcon, LinkedinIcon } from '@/components/hud/brand-icons'
 import { Badge } from '@/components/ui/badge'
@@ -17,7 +17,7 @@ export function Intro() {
         playsInline
         aria-hidden="true"
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-background via-background/85 to-background/70" />
+      <div className="absolute inset-0 bg-linear-to-r from-background via-background/85 to-background/70" />
       <div className="relative grid min-h-svh lg:grid-cols-2">
         <div className="flex flex-col justify-center px-6 py-28 sm:px-12 lg:px-16 xl:px-24">
           <p className="font-mono text-xs uppercase tracking-[0.28em] text-primary">{site.role}</p>
@@ -46,12 +46,12 @@ export function Intro() {
                 LinkedIn
               </a>
             </Button>
-            <Button asChild variant="secondary">
+            {/* <Button asChild variant="secondary">
               <a href={site.resume} target="_blank" rel="noreferrer">
                 <FileText />
                 Resume
               </a>
-            </Button>
+            </Button> */}
           </div>
         </div>
         <div className="relative min-h-[70vh] lg:min-h-svh">

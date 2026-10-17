@@ -1,4 +1,4 @@
-import { FileText, Mail } from 'lucide-react'
+import { Mail } from 'lucide-react'
 
 import { GithubIcon, LinkedinIcon } from '@/components/hud/brand-icons'
 import { Button } from '@/components/ui/button'
@@ -42,12 +42,12 @@ export function Contact() {
               LinkedIn
             </a>
           </Button>
-          <Button asChild variant="secondary">
+          {/* <Button asChild variant="secondary">
             <a href={site.resume} target="_blank" rel="noreferrer">
               <FileText />
               Resume
             </a>
-          </Button>
+          </Button> */}
         </div>
         <p className="mt-8 font-mono text-xs text-muted-foreground">{site.email}</p>
       </div>
